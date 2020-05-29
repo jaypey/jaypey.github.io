@@ -1,0 +1,24 @@
+---
+title: Choiceversial
+subtitle: Website Design
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Choiceversial is a mobile app project made with React Native for cross-platform publishing. It's an application
+that makes you react on controversial subjects, it also takes all the results in a database through a web api to make clear statistics based
+on the country of the player.
+
+
+Skills developed
+1. Javascript with React Native
+1. PostgreSQL database
+1. Local database hosting
+1. RESTApi with Django(Python)
+
+---
