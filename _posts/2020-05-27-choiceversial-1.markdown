@@ -8,6 +8,7 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: May 2020
+client: Personal
 category: Mobile Development
 description: Choiceversial is a mobile app project made with React Native for cross-platform publishing. It's an application
 that makes you react on controversial subjects, it also takes all the results in a database through a web api to make clear statistics based
