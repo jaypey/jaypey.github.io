@@ -24,5 +24,6 @@ social:
 # Postal address (add as many lines as necessary)
 
 # Build settings
+future: true
 markdown: kramdown
 permalink: pretty
