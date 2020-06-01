@@ -1,29 +1,32 @@
-url: https://jaypey.github.io
-baseurl: /
+# Welcome to Agency Jekyll Theme!
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jay Belval
-email: jpbelv@domain.com
-description: "Computer science student working mainly in Python."
 
-
-# Team names, titles and social links
-people:
-- name: Jay Belval
-  pic: 1
-  position: Python Developer
-  social:
-    - title: github
-      url: github.com/jaypey
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: http://github.com/jaypey
-
-# Postal address (add as many lines as necessary)
+title: JP Belval
+email: jpbelv@gmail.com
+description: > # this means to ignore newlines until "author:"
+  Computer science student working mainly in Python.
+author: 
+keyword: python
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "jaypey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  jaypey
 
 # Build settings
-future: true
+
 markdown: kramdown
-permalink: pretty
+
+#theme: agency-jekyll-theme #The "agency-jekyll-theme" is not supported by GitHub Pages. 
+
+gems:
+  - jekyll-feed
+exclude:
+  - agency-jekyll-theme.gemspec
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
