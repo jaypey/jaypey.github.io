@@ -24,7 +24,7 @@ h1{
   justify-content: center;
 }
 
-a:visited, a:hover, a:focus {
+a{
   text-decoration: none;
   color: #dfe6e9;
 }
