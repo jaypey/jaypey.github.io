@@ -2,24 +2,54 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech">
-  <meta charset="utf-8">
-  <title>JP Belval</title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>JP Belval</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="css/animation.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="center">
-        <div class="text">
-            <div class="typewriter">
-                <h1>JP Belval</h1>
+        <div class="header">
+            <h1>JP Belval</h1>
+            <h3>Not much to say</h3>
+            <p class="shrug">¯\_(ツ)_/¯</p>
+            <p class="coloredText">Here are two of my projects:</p>
+        </div>
+        </div>
+    </div>
+    <div class="projects">
+        <div class="project">
+            <img class="gcoin" src="./img/gcoin.png">
+            <div class="text">
+                <h2>GCoinBot</h2>
+                <p>Discord economy bot. 
+                    It uses a Sqlite3 database to allow users to make transactions, gambles and get their daily rewards. 
+                    It's not particularly useful, but it's pretty fun.</p>
+                <h3>Tools used:</h3>
+                <ul>
+                    <li>Python3</li>
+                    <li>Discord.py</li>
+                </ul>
             </div>
-            <p>Computer science student, </p>
+        </div>
+        <div class="project">
+            <img class="ngen" src="./img/ngen.png">
+            <div class="text">
+                <h2>NGen</h2>
+                <p>NGen is a web app that can generate a wide variety of unique fantasy names. 
+                    It has been used a lot for roleplaying purposes: the names are unique.</p>
+                <h3>Tools used:</h3>
+                <ul>
+                    <li>Python3</li>
+                    <li>Flask framework</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
