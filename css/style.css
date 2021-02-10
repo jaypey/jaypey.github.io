@@ -24,6 +24,11 @@ h1{
   justify-content: center;
 }
 
+a:visited, a:hover, a:focus {
+  text-decoration: none;
+  color: #dfe6e9;
+}
+
 .header h3{
   font-size: 30px;
 }
