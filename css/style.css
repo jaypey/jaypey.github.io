@@ -1,8 +1,26 @@
 html{
-  background-color: #2d3436;
+  background-color: #141616;
   font-family: 'Open Sans', sans-serif;
   color: #dfe6e9;
 
+}
+
+body{
+  padding-top: 10rem;
+}
+
+.titre{
+  padding-left: 20%;
+}
+
+.verticalCenter{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
 }
 
 .center{
@@ -34,33 +52,56 @@ a{
 }
 
 .shrug{
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 20px;
   color: #00b894;
   margin: 0%;
 }
 
 .projects{
+  margin-top: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  padding-left: 20%;
+}
+
+.text{
+  text-align: center;
+}
+.blog{
+  
+}
+
+.content{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.blogpost{
+  display:block
 }
 
 .project{
-  border: 5px;
+  border: 4px;
   border-style: outset;
-  border-color: #515455;
+  border-top-style: none;
+  border-right-style: none;
+  border-color: #b8bdbe;
   padding: 10px;
   display: flex;
-  width: 500px;
-  height: 300px;
   margin-bottom: 20px;
   transition: all .15s ease;
+}
+
+hr{
+  background-color: rgba(0,184,148,1);
 }
 
 .project:hover{
   transform: translate(6px, -6px);
   box-shadow: -9px 10px 0px 0px rgba(0,184,148,1);
+  
 }
 
 p{
